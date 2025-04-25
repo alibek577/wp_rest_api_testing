@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "4002b870-cd78-4de5-a5a8-c77bd2abd0cb",
+		"name": "WP Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Posts",
+			"item": [
+				{
+					"name": "All Posts",
+					"id": "40ac060e-0b05-4627-a42b-49d444dbe721",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://qa.levels.kz/wp-json/wp/v2/posts"
+					},
+					"response": []
+				}
+			],
+			"id": "4e4e7793-9e4c-4430-9c58-3c57be9cb253"
+		},
+		{
+			"name": "Categories",
+			"item": [
+				{
+					"name": "All Categories",
+					"id": "39a33abd-ae72-4676-877f-381fe808f4cb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://qa.levels.kz/wp-json/wp/v2/categories"
+					},
+					"response": []
+				}
+			],
+			"id": "98ac6e8a-c860-4d41-9caa-b98f3e651c71"
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": {
+			"password": "{{vault:authorization-password}}",
+			"username": "qa-engineer071411"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "4f456299-bff7-4245-a3f9-ca7839f38137",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "5fb92382-b1c6-4e72-ba74-1576b3057eb6",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
