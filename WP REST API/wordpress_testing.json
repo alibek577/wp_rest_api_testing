@@ -52,7 +52,7 @@
 	"auth": {
 		"type": "basic",
 		"basic": {
-			"password": "{{vault:authorization-password}}",
+			"password": "WEB-testing2025*",
 			"username": "qa-engineer071411"
 		}
 	},
@@ -60,7 +60,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "4f456299-bff7-4245-a3f9-ca7839f38137",
+				"id": "b1c6eb7b-0beb-4065-9a4e-928b35134349",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -71,7 +71,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "5fb92382-b1c6-4e72-ba74-1576b3057eb6",
+				"id": "266a696b-9ad2-4866-ac29-cbc73821a06c",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
