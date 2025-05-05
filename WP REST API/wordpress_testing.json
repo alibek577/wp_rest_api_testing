@@ -20,6 +20,28 @@
 						"url": "{{base_url}}/wp-json/wp/v2/posts"
 					},
 					"response": []
+				},
+				{
+					"name": "Create post",
+					"id": "1be0b5d6-0fa3-455f-a99b-3e7ee8c406fa",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"title\": \"New Post\",\r\n   \"content\": \"Hello, one paragraph. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks\",\r\n  \"status\": \"publish\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{base_url}}/wp-json/wp/v2/posts"
+					},
+					"response": []
 				}
 			],
 			"id": "4e4e7793-9e4c-4430-9c58-3c57be9cb253"
@@ -47,18 +69,6 @@
 			"name": "Plugins",
 			"item": [],
 			"id": "f009dc04-f043-4f18-8a77-0cb3d977df8a"
-		},
-		{
-			"name": "Create post",
-			"id": "1be0b5d6-0fa3-455f-a99b-3e7ee8c406fa",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
 		}
 	],
 	"auth": {
