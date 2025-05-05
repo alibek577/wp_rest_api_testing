@@ -52,15 +52,15 @@
 	"auth": {
 		"type": "basic",
 		"basic": {
-			"password": "eCgX P1hs aGjk DbrV cVX4 rpqA",
-			"username": "api-test"
+			"password": "WEB-testing2025*",
+			"username": "qa-engineer071411"
 		}
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "6b1ea500-dddc-4d7c-b6fa-cb2ece74bbe1",
+				"id": "1e5651a5-27b0-4c45-9086-75e6153650f1",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -71,7 +71,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "1460e12d-9158-4314-b9f7-70577646c332",
+				"id": "f491a96c-06c4-4d83-8e75-fa29ea6089cd",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
