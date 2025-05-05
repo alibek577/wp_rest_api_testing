@@ -42,6 +42,18 @@
 						"url": "{{base_url}}/wp-json/wp/v2/posts"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "2b0903b5-5572-4518-ace3-f730ac0fbac3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "4e4e7793-9e4c-4430-9c58-3c57be9cb253"
