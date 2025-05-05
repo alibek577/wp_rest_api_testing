@@ -17,7 +17,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://qa.levels.kz/wp-json/wp/v2/posts"
+						"url": "{{base_url}}/wp-json/wp/v2/posts"
 					},
 					"response": []
 				}
@@ -60,7 +60,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "b1c6eb7b-0beb-4065-9a4e-928b35134349",
+				"id": "70860ae1-587c-4866-8d2f-c5b122c860ce",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -71,13 +71,20 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "266a696b-9ad2-4866-ac29-cbc73821a06c",
+				"id": "27e8e395-126a-40f4-8216-7dc91438a46c",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
 					""
 				]
 			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://qa.levels.kz",
+			"type": "string"
 		}
 	]
 }
