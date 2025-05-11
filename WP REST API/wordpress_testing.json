@@ -54,14 +54,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n   \"title\": \"New Post\",\r\n   \"content\": \"Hello, one paragraph. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks\",\r\n  \"status\": \"publish\"\r\n}",
+							"raw": "{\r\n   \"title\": \"New Post upd\",\r\n   \"content\": \"Hello, one paragraph. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks\",\r\n  \"status\": \"publish\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{base_url}}/{{api}}/posts"
+						"url": "{{base_url}}/{{api}}/posts/1833"
 					},
 					"response": []
 				},
@@ -73,7 +73,12 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"title\": \"New Post\",\r\n   \"content\": \"Hello, one paragraph. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks\",\r\n  \"status\": \"publish\"\r\n}"
+						},
+						"url": "{{base_url}}/{{api}}/posts/1833"
 					},
 					"response": []
 				}
@@ -92,7 +97,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/wp-json/wp/v2/categories"
+						"url": "{{base_url}}/{{api}}/categories"
 					},
 					"response": []
 				}
@@ -115,7 +120,28 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"title\": \"New Post\",\r\n   \"content\": \"Hello, one paragraph. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks\",\r\n  \"status\": \"publish\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/{{api}}/block-directory/search?term=button",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"{{api}}",
+								"block-directory",
+								"search"
+							],
+							"query": [
+								{
+									"key": "term",
+									"value": "button"
+								}
+							]
+						}
 					},
 					"response": []
 				}
