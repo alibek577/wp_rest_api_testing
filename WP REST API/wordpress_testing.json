@@ -39,7 +39,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/wp-json/wp/v2/posts"
+						"url": "{{base_url}}/{{api}}/posts"
 					},
 					"response": []
 				},
@@ -81,6 +81,24 @@
 			"name": "Plugins",
 			"item": [],
 			"id": "f009dc04-f043-4f18-8a77-0cb3d977df8a"
+		},
+		{
+			"name": "Block Types",
+			"item": [
+				{
+					"name": "New Request",
+					"id": "9e42bbbb-eca4-4ac5-b6bc-169eb9338966",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "496d478d-c49d-447a-a2b1-2f302eadeb08"
 		}
 	],
 	"auth": {
@@ -94,7 +112,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "1e5651a5-27b0-4c45-9086-75e6153650f1",
+				"id": "6233b485-0639-4de0-9920-c48b5a25769a",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -105,7 +123,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f491a96c-06c4-4d83-8e75-fa29ea6089cd",
+				"id": "1bc1c257-a8d1-4bff-85d3-b823746429f3",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -118,6 +136,11 @@
 		{
 			"key": "base_url",
 			"value": "https://qa.levels.kz",
+			"type": "string"
+		},
+		{
+			"key": "api",
+			"value": "wp-json/wp/v2",
 			"type": "string"
 		}
 	]
