@@ -44,6 +44,28 @@
 					"response": []
 				},
 				{
+					"name": "Update Title Post",
+					"id": "f7f94d5d-df5f-4b0d-9a07-85a3eed223ba",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"title\": \"New Post\",\r\n   \"content\": \"Hello, one paragraph. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks\",\r\n  \"status\": \"publish\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{base_url}}/{{api}}/posts"
+					},
+					"response": []
+				},
+				{
 					"name": "New Request",
 					"id": "2b0903b5-5572-4518-ace3-f730ac0fbac3",
 					"protocolProfileBehavior": {
