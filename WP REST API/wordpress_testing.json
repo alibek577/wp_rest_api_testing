@@ -17,7 +17,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/wp-json/wp/v2/posts"
+						"url": "{{base_url}}/{{api}}/posts"
 					},
 					"response": []
 				},
