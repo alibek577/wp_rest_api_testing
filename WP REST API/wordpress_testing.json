@@ -10,6 +10,21 @@
 			"item": [
 				{
 					"name": "All Posts",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c30cb040-8609-4a38-936d-83a5a12cc147",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
 					"id": "40ac060e-0b05-4627-a42b-49d444dbe721",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
